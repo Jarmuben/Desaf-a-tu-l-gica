@@ -1,5 +1,6 @@
 
-//Escribe un programa en Java que pida un número por teclado hasta que éste sea positivo. 
+//Escribe un programa en Java que pida un número por teclado hasta que éste sea positivo.
+ 
 //A continuación, muestra los primeros 20 números sucesivos a dicho número.. 
 
 import java.util.Scanner;

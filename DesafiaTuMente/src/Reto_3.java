@@ -4,6 +4,7 @@ public class Reto_3 {
 	public static void main(String[] args) {
 
 		int numero = 0; // desde cero para que cuando haga el bucle sume 1 desde cero
+		int contador=0;//El contador indica los numeros que hay.
 
 		while (numero < 100) {
 
@@ -18,6 +19,7 @@ public class Reto_3 {
 			// Si no se cumple no es multiplo.
 			if (numero % 2 == 0) {
 				System.out.println(numero); // me imprime los numeros multiplos de 2.
+				contador++;
 
 			}
 			//si lo anterior no se cumple entonces que se cumpla la siguiente condicíon.
@@ -27,7 +29,13 @@ public class Reto_3 {
 			//el 6 es multiplo de los dos y como el primero lo cumple con dos no sigue con el 3 para no repetirlo.
 			else if (numero % 3 == 0) {
 				System.out.println(numero);
+				contador++;
 			}
+			
 		}
+		
+		System.out.println("Los cantidad de numeros que son múltiplos de 2 y 3 es " + contador);
+		
 	}
+	
 }
